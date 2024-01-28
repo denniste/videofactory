@@ -1,14 +1,8 @@
 {
-  "bracketSpacing": true,
-  "singleQuote": false,
-  "arrowParens": "avoid",
   "trailingComma": "none",
-  "overrides": [
-    {
-      "files": "*.html",
-      "options": {
-        "parser": "html"
-      }
-    }
-  ]
+  "singleQuote": false,
+  "semi": false,
+  "proseWrap": "always",
+  "htmlWhitespaceSensitivity": "ignore",
+  "printWidth": 115
 }

@@ -1,12 +1,13 @@
 /* eslint-env node */
-require("@rushstack/eslint-patch/modern-module-resolution");
-
+require("@rushstack/eslint-patch/modern-module-resolution")
 module.exports = {
   root: true,
   env: {
+    // eslint-disable-next-line prettier/prettier
     node: true
   },
   extends: [
+    "plugin:prettier/recommended",
     "plugin:vue/vue3-essential",
     "eslint:recommended",
     "@vue/eslint-config-typescript",
@@ -36,4 +37,4 @@ module.exports = {
       processor: "vue/.vue"
     }
   ]
-};
+}
